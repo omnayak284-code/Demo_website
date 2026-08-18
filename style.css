@@ -1058,6 +1058,13 @@ a:hover .arrow { transform: translateX(3px); }
 .footer-legal a { color: var(--default-color); font-size: 14px; }
 .footer-legal a:hover { color: var(--accent-color); }
 
+.footer-credit {
+  text-align: center;
+  padding: 14px 0 0;
+  font-size: 13px;
+  color: var(--default-color);
+}
+
 @media (max-width: 991px) {
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
